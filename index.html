@@ -3,11 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sign Up</title>
     <link href="style.css" rel="stylesheet">
 </head>
 <body>
-    <img src = "https://images.unsplash.com/photo-1585202900225-6d3ac20a6962?q=80&w=1862&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+    <div class="image-container">
+        <div class="logo-container">
+            <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png" alt="logo">
+            <span>Odin</span>
+        </div>
+    </div>
     <div class="container">
         <div class="heading">
             <div class="heading-content">
@@ -17,40 +22,42 @@
             </div>
         </div>
         <div class="form-container">
-            <div class="form-content">
-                <h2> Let's do this!</h2>
-                <form id="form" action="">
-                    <div class="name">
-                        <div>
-                            <label for="fname">First Name</label>
-                            <input id="fname" name="fname" type="text" required>
+            <div class = "form-border">
+                <div class="form-content">
+                    <h2> Let's do this!</h2>
+                    <form id="form" action="">
+                        <div class="name">
+                            <div>
+                                <label for="fname">First Name</label>
+                                <input id="fname" name="fname" type="text" required>
+                            </div>
+                            <div>
+                                <label for="lname">Last Name</label>
+                                <input id="lname" name="lname" type="text">
+                            </div>
                         </div>
-                        <div>
-                            <label for="lname">Last Name</label>
-                            <input id="lname" name="lname" type="text">
+                        <div class="contact">
+                            <div>
+                                <label for="mail">Email</label>
+                                <input id="mail" name="mail" type="email" required>
+                            </div>
+                            <div>
+                                <label for="phno">Phone Number</label>
+                                <input id="phno" name="phno" type="tel" required>
+                            </div>
                         </div>
-                    </div>
-                    <div class="contact">
-                        <div>
-                            <label for="mail">Email</label>
-                            <input id="mail" name="mail" type="email" required>
+                        <div class="password">
+                            <div>
+                                <label for="pwd">Password</label>
+                                <input id="pwd" name="pwd" type="password" required>
+                            </div>
+                            <div>
+                                <label for="confirm-pwd">Confirm Password</label>
+                                <input id="confirm-pwd" name="confirm-pwd" type="password" required>
+                            </div>
                         </div>
-                        <div>
-                            <label for="phno">Phone Number</label>
-                            <input id="phno" name="phno" type="tel" required>
-                        </div>
-                    </div>
-                    <div class="password">
-                        <div>
-                            <label for="pwd">Password</label>
-                            <input id="pwd" name="pwd" type="password" required>
-                        </div>
-                        <div>
-                            <label for="confirm-pwd">Confirm Password</label>
-                            <input id="confirm-pwd" name="confirm-pwd" type="password" required>
-                        </div>
-                    </div>
-                </form>
+                    </form>
+                </div>
             </div>
         </div>
         <div class="login">
