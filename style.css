@@ -3,4 +3,122 @@ body{
     padding:0;
     height:100vh;
     width: 100vw;
+    display: flex;
+}
+
+img{
+    display: block;
+    width: 40%;
+}
+
+.container{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+h2{
+    margin: 0;
+    padding: 0;
+}
+
+.heading{
+    flex: 1 0 0;
+    background-color: #F9F9F9;
+    
+}
+
+.heading-content{
+    padding-left: 40px;
+    width: 80%;
+}
+
+.heading-content>h2:first-child{
+    padding-top: 90px;
+}
+
+.heading-content>h2:last-child{
+    padding-top: 40px;
+
+}
+
+.form-container{
+    flex: 0.8 0 0;
+
+}
+
+.form-content{
+    padding-left: 40px;
+    width: 80%;
+}
+
+.form-content h2{
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+label{
+    display: block;
+}
+
+.name{
+    display: flex;
+    gap: 80px;
+}
+
+.contact{
+    display: flex;
+    gap: 80px;
+}
+
+.password{
+    display: flex;
+    gap: 80px;
+}
+
+form>div>div{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 12px;
+}
+
+input{
+    width: 250px;
+    border: 1px solid #E5E7EB;
+    height: 20px;
+}
+
+.login{
+    flex: 1 0 0;
+    padding-left: 40px;
+    background-color: #F9F9F9;
+}
+
+button{
+    margin-top: 20px;
+    width: 175px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    background-color: #596D48;
+    color: white;
+    font-weight: 700;
+}
+
+a{
+    text-decoration: none;
 }
