@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: norse;
-    src: url(/fonts/Norse-Bold.otf);
+    src: url('../fonts/Norse-Bold.otf');
   }
 
 body{
@@ -64,11 +64,11 @@ h2{
 }
 
 .heading-content>h2:first-child{
-    padding-top: 90px;
+    padding-top: 12%;
 }
 
 .heading-content>h2:last-child{
-    padding-top: 20px;
+    padding-top: 3%;
 
 }
 
