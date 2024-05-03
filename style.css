@@ -3,13 +3,18 @@
 @font-face {
     font-family: norse;
     src: url("../../Sign-up-Form/fonts/Norse-Bold.otf");
-  }
+}
+
+html{
+    height: 100%;
+    width: 100%;
+}
 
 body{
     margin:0;
     padding:0;
-    height:100vh;
-    width: 100vw;
+    min-height: 100%;
+    min-width: 100%;
     display: flex;
     font-family: "Rubik",sans-serif;
 }
@@ -104,17 +109,17 @@ label{
 
 .name{
     display: flex;
-    gap: 80px;
+    gap: 60px;
 }
 
 .contact{
     display: flex;
-    gap: 80px;
+    gap: 60px;
 }
 
 .password{
     display: flex;
-    gap: 80px;
+    gap: 60px;
 }
 
 form>div>div{
@@ -132,6 +137,7 @@ input{
     width: 250px;
     border: 2px solid #E5E7EB;
     height: 20px;
+    margin-right: 20px;
 }
 
 input:focus{
