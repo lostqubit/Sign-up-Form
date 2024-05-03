@@ -130,8 +130,13 @@ label{
 
 input{
     width: 250px;
-    border: 1px solid #E5E7EB;
+    border: 2px solid #E5E7EB;
     height: 20px;
+}
+
+input:focus{
+    border: 2px solid blue;
+    outline: none;
 }
 
 .login{
