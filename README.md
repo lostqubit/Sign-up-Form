@@ -2,7 +2,7 @@
 
 A simple Sign Up Form with password validation created with css and javascript.
 
-![image](https://github.com/lostqubit/Sign-up-Form/assets/31575513/47ffdf30-1a4c-43da-b11e-4824eac30ea2)
+![image](https://github.com/lostqubit/Sign-up-Form/assets/31575513/32a08df6-5541-458f-8167-372c3e40de40)
 
 live demo: https://lostqubit.github.io/Sign-up-Form/
 
